@@ -1,15 +1,27 @@
 {
-  "name": "nodejs",
+  "name": "cawadi-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "cawadi api",
+  "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "music-metadata": "^7.8.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "silentDev",
+  "license": "ISC"
 }
