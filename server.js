@@ -14,7 +14,7 @@ app.options("*", cors());
 const api = process.env.API;
 const authJwt = require("./helper/jwt");
 const errorHandling = require("./helper/autherrorHandling");
-const port = process.env.port || process.env.PORT;
+const port = process.env.port || 3000;
 const db = process.env.CONNECT_MONGODB;
 const categoryRouter = require("./routes/category");
 const publishBookRouter = require("./routes/publish");
